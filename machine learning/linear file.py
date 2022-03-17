@@ -197,7 +197,7 @@ while(1):
     elif(p==7):
         print('-------Al_IN_ONE-----')
         lin=LinearRegression(x,y)
-        allinone=lin.grap()
+        allinone=lin.al_in_one()
         print(allinone)
     elif(p==8):
         break
